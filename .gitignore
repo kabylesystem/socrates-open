@@ -1,0 +1,30 @@
+# Dependencies & builds
+node_modules/
+dist/
+build/
+.next/
+out/
+
+# Secrets
+.env
+.env.*
+!.env.example
+*.pem
+
+# OS
+.DS_Store
+
+# Trace Claude — ne part jamais sur GitHub
+.claude/
+CLAUDE.md
+session.md
+steps/
+
+# Données personnelles (positions, débats) — jamais sur GitHub
+data/
+
+# artefact tsc
+tsconfig.tsbuildinfo
+
+next-env.d.ts
+tsconfig.tsbuildinfo
