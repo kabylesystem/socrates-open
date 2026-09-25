@@ -3,6 +3,7 @@ import path from "path";
 import fs from "node:fs";
 
 const DB_PATH = path.join(process.cwd(), "data", "socrates.db");
+fs.mkdirSync(path.dirname(DB_PATH), { recursive: true });
 
 // Connexion unique par process (évite les rechargements multiples du module
 // natif en dev/HMR, source de « Module did not self-register »).

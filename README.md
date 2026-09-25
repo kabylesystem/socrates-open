@@ -21,7 +21,6 @@ Next.js 16, React 19, TypeScript, Tailwind CSS, SQLite via `better-sqlite3`, and
 
 ```bash
 npm ci
-mkdir -p data
 cp .env.example .env.local
 npm run dev
 ```
